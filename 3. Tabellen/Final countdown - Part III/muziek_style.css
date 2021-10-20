@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, sans-Serif;
+    color: white;
+    background-color: gray;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+nav p a{
+    display: inline;
+    margin-left: 1%;
+    margin-right: 4%;
+    text-decoration: none;
+    border: 2px white solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+nav p a:hover {
+    border-color: green;
+}
+
+article {
+    border: 2px red solid;
+    padding: 10px;
+    margin: 2%;
+}
+
+.article_style1 {
+    background-color: plum;
+}
+
+.article_style2 {
+    background-color: greenyellow;
+    color: black;
+}
+
+article p a {
+    color: gray;
+}
+
+table, td, th {
+    border: 1px black solid;
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+.title {
+    width: 350px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}

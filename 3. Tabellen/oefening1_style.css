@@ -1,0 +1,30 @@
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+}
+
+td, th {
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: #27426d;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #6facff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #4f8cef;
+}
+
+tr {
+    color: white;
+}
