@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a1acda5-e1d9-4547-bd66-8e3f30863727" name="Changes" comment="" />
+    <list default="true" id="1a1acda5-e1d9-4547-bd66-8e3f30863727" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Tabellen/Oefening2/oefening2.html" beforeDir="false" afterPath="$PROJECT_DIR$/3. Tabellen/Oefening2/oefening2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Tabellen/Oefening2/oefening2_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/3. Tabellen/Oefening2/oefening2_style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +23,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/Web_Essentials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.oefening1.html">
+    <configuration name="oefening1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebEssentials/3. Tabellen/oefening1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="oefening4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebEssentials/3. Tabellen/oefening4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.oefening1.html" />
+        <item itemvalue="JavaScript Debug.oefening4.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,6 +50,10 @@
       <option name="presentableId" value="Default" />
       <updated>1634731743821</updated>
       <workItem from="1634731745097" duration="21000" />
+      <workItem from="1634731786324" duration="146000" />
+      <workItem from="1634731942974" duration="28000" />
+      <workItem from="1634732185806" duration="792000" />
+      <workItem from="1635334767758" duration="621000" />
     </task>
     <servers />
   </component>
