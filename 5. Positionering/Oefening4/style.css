@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+article {
+    float: left;
+    width: calc(100% / 3 - 2%);
+    margin: 5px;
+    text-align: center;
+    color: blue;
+    border: solid;
+    border-color: grey;
+}
+
+img {
+    width: 100%;
+}

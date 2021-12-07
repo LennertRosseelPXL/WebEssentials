@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 812px;
+    height: 812px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+article {
+    width: 260px;
+    height: 90px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: #4078c0;
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+article > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section {
+    position: absolute;
+    left: 10px;
+    top: 55px;
+}
+
+.grass {
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}

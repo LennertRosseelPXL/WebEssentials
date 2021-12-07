@@ -1,0 +1,108 @@
+main, article, section {
+    box-sizing: border-box;
+}
+
+main {
+    width: 812px;
+    height: 812px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+article {
+    background-color: white;
+    width: 260px;
+    height: 90px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    float: left;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 5px 5px lightgray;
+}
+
+article img {
+    position: absolute;
+    right: 5px;
+    top: 10px
+}
+
+.pokenumber {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    font-size: small;
+    color: gray;
+}
+
+.typeoverview {
+    margin-top: 15px;
+}
+
+.type {
+    padding: 5px 10px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+}
+
+.type.grass {
+    background-color: #78c850;
+}
+
+.type.fire {
+    background-color: #f08030;
+}
+
+.type.poison {
+    background-color: #a040a0;
+}
+
+.type.flying {
+    background-color: #a890f0;
+}
+
+h1 {
+    color: #4078c0;
+    margin: 0;
+}
+
+@media screen and (max-width: 850px){
+    body {
+        margin: 0;
+    }
+
+    main {
+        width: 100%;
+        border: none;
+    }
+
+    article {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        height: auto;
+    }
+
+    article {
+        width: 100%;
+        float: none;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .typeoverview {
+        display: none;
+    }
+}

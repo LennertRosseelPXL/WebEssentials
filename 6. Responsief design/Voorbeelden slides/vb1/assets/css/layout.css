@@ -1,0 +1,32 @@
+header, main, footer, div {
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.element {
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    float: left;
+}
+
+.width1 {
+    width: 31.33%;
+}
+
+.width2 {
+    width: 64.66%;
+}
+
+.width3 {
+    width: 98%;
+}
+
+footer{
+    clear: both;
+}

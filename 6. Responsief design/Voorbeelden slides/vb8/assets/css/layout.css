@@ -1,0 +1,40 @@
+body, header, main, div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 32px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.parts {
+    flex-basis: 25%;
+    padding: 0 4px;
+}
+
+.parts img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .parts {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 600px) {
+    .parts {
+        flex-basis: 100%;
+    }
+}

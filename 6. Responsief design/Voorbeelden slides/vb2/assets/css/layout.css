@@ -1,0 +1,25 @@
+section {
+    width: 100%;
+    height: 250px;
+    background-color: red;
+}
+
+/* scherm kleiner dan 1000px */
+@media screen and (max-width: 1000px) {
+    section {
+        background-color: green;
+    }
+}
+
+/* scherm kleiner dan 800px */
+@media screen and (max-width: 800px) {
+    section {
+        background-color: blue;
+    }
+}
+/* scherm kleiner dan 500px */
+@media screen and (max-width: 500px) {
+    section {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+body {
+  background-image: url("images/bgimage.png");
+}
+header{
+  padding: 1px;
+  background-color: #283e4a;
+  color: white;
+}
+nav{
+  width: 28%;
+  margin-right: 2%;
+  float: left;
+  background-color: white;
+}
+nav a{
+  display: block; /*Zodat die onder elkaar zijn*/
+}
+main{
+  width: 980px
+}
+#content{
+  float: right;
+  background-color: white;
+  width: 69%;
+  box-sizing: border-box;
+}
+#content article{
+  float: left;
+  width: 30%;
+  position: relative;
+  border-bottom: 8px solid #283e4a;
+  background-color: #E8E8E8;
+  margin: 10px;
+}
+#nieuw{
+  position: absolute;
+  background-color: red;
+}
+#top a{ /*a is voor links als je dit bij normale top doet gaat die da niet herkennen*/
+  color: white;
+}
+
+#top{
+  bottom: 10px;
+  right: 10px;
+  position: fixed; /* Zodat die meekomt als je scrolt*/
+  background-color: #283e4a;
+}
+#mezelf{
+  width: 150px;
+  float: left;
+}
